@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>
+        <span id="lab">Lab</span>
+        <span id="col">:</span>
+        <span id="pixel"> Pixel Art Maker</span>
+    </h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        <span class="grid">Grid Height:</span>
+        <input type="number" id="input_height" name="height" min="1" value="1">
+        <span class="grid">Grid Width:</span>
+        <input type="number" id="input_width" name="width" min="1" value="1">
+        <input type="submit" id="submit" value="Submit">
+        <button type="button" class="btn btn-xs btn-danger" id="Reset">Reset</button>
+    </form>
+
+    <h2><label for="colorPicker"></label>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table class="pixel_canvas">
+    </table>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+
+</html>
