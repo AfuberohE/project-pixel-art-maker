@@ -18,5 +18,5 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 =======
 # project-pixel-art-maker
 
-http://afuberohe.github.io/
+https://afuberohe.github.io/project-pixel-art-maker/
 >>>>>>> 0613a6b9ce8b0338239282945034a3e8e32ac5ea
